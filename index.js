@@ -67,7 +67,7 @@ app.get('/callback', async (req, res) => {
 app.get('/', (req, res) => {
   const navButtonText = req.query.navButtonText || 'Login';
 
-  fs.readFile(path.join(__dirname, 'Dashboard', 'index.html'), 'utf8', (err, data) => {
+  fs.readFile(path.join('index.html'), 'utf8', (err, data) => {
     if (err) {
       res.status(500).send('Error loading page.');
       return;
