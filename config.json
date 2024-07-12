@@ -1,0 +1,6 @@
+{
+    "token": "MTE0MDU5MDcyNDQ1NTM0NjIyNg.G6NHi1.AIwJ5aSVepCTSk98xKacATqX0ZaSweuW9qdQts",
+    "clientId": "1140590724455346226",
+    "clientSecret": "fS6W4iMUxnSJAKsHQ29qOHa6PMtzDCwL",
+    "redirectUri": "https://discord.com/oauth2/authorize?client_id=1140590724455346226&response_type=code&redirect_uri=https%3A%2F%2Fsirdrone1.github.io%2FNexaBot%2Fdashboard.html&scope=guilds"
+}
