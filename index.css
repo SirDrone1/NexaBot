@@ -1,0 +1,36 @@
+body {
+    background-color: #050f18;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    width: 100%;
+    background-color: #141414;
+    padding: 17px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: -5px;
+}
+
+.nav-button {
+    background-color: transparent;
+    opacity: 0.50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 13px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: rgb(255, 255, 255);
+    opacity: 0.90;
+}
